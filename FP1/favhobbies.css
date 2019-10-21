@@ -1,5 +1,11 @@
-﻿* {
+* {
     box-sizing: border-box;
+}
+#mobile {
+    display: none;
+}
+#desktop {
+    display: none;
 }
 
 body {
@@ -31,6 +37,10 @@ body {
     margin: auto;
     min-width: 450px;
     max-width: 1020px;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
 
 header {
